@@ -9,6 +9,8 @@ The main goals of this project are:
 2. General UI redesign for better UX with attention to touch controls for tablets.
 3. A more modular game system that would make it possible to enable or disable game features, so a single player campagne can be developed that introduces the game mechanics one by one and helps tutorialize the game. (Similar to how I handled [my other web game](https://roelifant.com/projects/blubmarine/doc.php))
 
+Development progress is tracked [here](https://trello.com/b/SL6F4vdp/neumann-terror).
+
 ## Stack
 This project uses:
 - Vite. Just run `npm run dev` to develop. ([docs](https://vitejs.dev/guide/))
