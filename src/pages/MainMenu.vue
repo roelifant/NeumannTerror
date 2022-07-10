@@ -5,15 +5,17 @@ import mainMenu from "../assets/img/mainMenu.svg";
 import warpGate from "../assets/img/WarpGate.svg";
 import roelifant from "../assets/img/roelifant.svg";
 
-import { ref, computed, nextTick } from "vue";
+import { ref, computed } from "vue";
 
 const colors = [
-  "rose-500",
-  "purple-500",
-  "blue-500",
-  "green-300",
-  "orange-900",
-  "orange-300",
+  "red",
+  "purple",
+  "blue",
+  "green",
+  "brown",
+  "orange",
+  "cyan",
+  "yellow"
 ];
 let rando = Math.floor(Math.random() * (colors.length - 1));
 let colorIndex = ref(rando);
@@ -147,7 +149,7 @@ setInterval(() => {
               rounded-full
               w-6
               h-6
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[210px]
               left-[40px]
@@ -159,7 +161,7 @@ setInterval(() => {
               rounded-full
               w-4
               h-4
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[310px]
               left-[10px]
@@ -171,7 +173,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[350px]
               left-[175px]
@@ -183,7 +185,7 @@ setInterval(() => {
               rounded-full
               w-4
               h-4
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[420px]
               left-[100px]
@@ -195,7 +197,7 @@ setInterval(() => {
               rounded-full
               w-4
               h-4
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[510px]
               left-[-50px]
@@ -207,7 +209,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[400px]
               left-[-75px]
@@ -219,7 +221,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[200px]
               left-[-100px]
@@ -231,7 +233,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[525px]
               left-[200px]
@@ -243,7 +245,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[350px]
               left-[-250px]
@@ -255,7 +257,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[600px]
               left-[-200px]
@@ -267,7 +269,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[650px]
               left-[-10px]
@@ -279,7 +281,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[375px]
               left-[275px]
@@ -291,7 +293,7 @@ setInterval(() => {
               rounded-full
               w-4
               h-4
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[70px]
               left-[40px]
@@ -305,7 +307,7 @@ setInterval(() => {
               rounded-full
               w-6
               h-6
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[450px]
               right-[120px]
@@ -317,7 +319,7 @@ setInterval(() => {
               rounded-full
               w-4
               h-4
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[330px]
               right-[-50px]
@@ -329,7 +331,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[375px]
               right-[150px]
@@ -341,7 +343,7 @@ setInterval(() => {
               rounded-full
               w-4
               h-4
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[475px]
               right-[220px]
@@ -353,7 +355,7 @@ setInterval(() => {
               rounded-full
               w-4
               h-4
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[510px]
               right-[-110px]
@@ -365,7 +367,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[400px]
               right-[10px]
@@ -377,7 +379,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[190px]
               right-[-75px]
@@ -389,7 +391,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[110px]
               right-[30px]
@@ -401,7 +403,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[525px]
               right-[50px]
@@ -413,7 +415,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[325px]
               right-[-240px]
@@ -425,7 +427,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[575px]
               right-[-220px]
@@ -437,7 +439,7 @@ setInterval(() => {
               rounded-full
               w-3
               h-3
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[675px]
               right-[30px]
@@ -449,7 +451,7 @@ setInterval(() => {
               rounded-full
               w-4
               h-4
-              bg-gray-400
+              bg-gray-lighter
               absolute
               bottom-[250px]
               right-[40px]
@@ -462,10 +464,78 @@ setInterval(() => {
 
     <!-- buttons -->
     <div class="absolute top-52 left-0 w-full z-10 space-y-4">
-      <router-link to="/test" class="block mx-auto w-40 bg-gray-600 hover:bg-gray-500 text-center uppercase font-bold shadow-neumann text-lg py-1">Test</router-link>
-      <router-link to="/test" class="block mx-auto w-40 bg-gray-600 hover:bg-gray-500 text-center uppercase font-bold shadow-neumann text-lg py-1">Test</router-link>
-      <router-link to="/test" class="block mx-auto w-40 bg-gray-600 hover:bg-gray-500 text-center uppercase font-bold shadow-neumann text-lg py-1">Test</router-link>
-      <router-link to="/test" class="block mx-auto w-40 bg-gray-600 hover:bg-gray-500 text-center uppercase font-bold shadow-neumann text-lg py-1">Test</router-link>
+      <router-link
+        to="/test"
+        class="
+          block
+          mx-auto
+          w-40
+          bg-gray
+          hover:bg-gray-light
+          text-center
+          uppercase
+          font-bold
+          shadow-neumann
+          text-lg
+          py-1
+          text-gray-darker
+        "
+        >Test</router-link
+      >
+      <router-link
+        to="/test"
+        class="
+          block
+          mx-auto
+          w-40
+          bg-gray
+          hover:bg-gray-light
+          text-center
+          uppercase
+          font-bold
+          shadow-neumann
+          text-lg
+          py-1
+          text-gray-darker
+        "
+        >Test</router-link
+      >
+      <router-link
+        to="/test"
+        class="
+          block
+          mx-auto
+          w-40
+          bg-gray
+          hover:bg-gray-light
+          text-center
+          uppercase
+          font-bold
+          shadow-neumann
+          text-lg
+          py-1
+          text-gray-darker
+        "
+        >Test</router-link
+      >
+      <router-link
+        to="/test"
+        class="
+          block
+          mx-auto
+          w-40
+          bg-gray
+          hover:bg-gray-light
+          text-center
+          uppercase
+          font-bold
+          shadow-neumann
+          text-lg
+          text-gray-darker
+          py-1
+        "
+        >Test</router-link
+      >
     </div>
   </div>
 </template>
