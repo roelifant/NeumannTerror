@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="bg-black">
     <router-view></router-view>
   </div>
 </template>

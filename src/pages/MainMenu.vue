@@ -14,6 +14,7 @@ const colors = [
   "green",
   "brown",
   "orange",
+  'dark',
   "cyan",
   "yellow"
 ];
@@ -46,6 +47,7 @@ setInterval(() => {
     class="
       w-screen
       h-screen
+      relative
       bg-black
       transition-opacity
       duration-1000
@@ -78,7 +80,8 @@ setInterval(() => {
       <div class="max-w-xl mx-auto mt-6">
         <neumann
           class="
-            w-10/12
+            px-3 sm:px-0
+            w-12/12
             sm:w-10/12
             md:w-11/12
             xl:w-10/12
@@ -90,7 +93,7 @@ setInterval(() => {
 
         <terror
           class="
-            w-9/12
+            w-10/12
             sm:w-9/12
             md:w-10/12
             xl:w-9/12
@@ -465,7 +468,7 @@ setInterval(() => {
     <!-- buttons -->
     <div class="absolute top-52 left-0 w-full z-10 space-y-4">
       <router-link
-        to="/test"
+        to="test"
         class="
           block
           mx-auto
@@ -483,7 +486,7 @@ setInterval(() => {
         >Test</router-link
       >
       <router-link
-        to="/test"
+        to="test"
         class="
           block
           mx-auto
@@ -501,7 +504,7 @@ setInterval(() => {
         >Test</router-link
       >
       <router-link
-        to="/test"
+        to="test"
         class="
           block
           mx-auto
@@ -519,7 +522,7 @@ setInterval(() => {
         >Test</router-link
       >
       <router-link
-        to="/test"
+        to="test"
         class="
           block
           mx-auto

@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <p>this is a test page</p>
+  <div class="w-screen h-screen">
+    <p class="text-white">this is a test page</p>
+  </div>
 </template>
 
 <style>

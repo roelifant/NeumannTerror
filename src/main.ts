@@ -6,8 +6,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import './index.css'
 
 const routes = [
-    { path: '/', component: MainMenu },
-    { path: '/test', component: Test }
+    { path: '/brol/neumann/', component: MainMenu },
+    { path: '/brol/neumann/test', component: Test }
 ]
 
 const router = createRouter({
