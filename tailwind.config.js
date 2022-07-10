@@ -25,13 +25,48 @@ module.exports = {
     'text-gray-700',
     'bg-gray-700',
     'to-gray-700',
+    'duration-[10000ms]'
   ],
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        neumann: {
+          '0%': {transform: 'translateY(5px)'},
+          '100%': {transform: 'translateY(-5px)'},
+        },
+        terror: {
+          '0%': {transform: 'translateY(10px)'},
+          '100%': {transform: 'translateY(-10px)'},
+        },
+        menuPlanet1: {
+          '0%': {transform: 'translate(5px, -5px)'},
+          '50%': {transform: 'translate(-5px, 5px)'},
+          '100%': {transform: 'translate(0px, 0px)'},
+        },
+        menuPlanet2: {
+          '0%': {transform: 'translate(0px, 0px)'},
+          '50%': {transform: 'translate(-5px, -5px)'},
+          '100%': {transform: 'translate(5px, 5px)'},
+        },
+        menuPlanet3: {
+          '0%': {transform: 'translate(5px, 0px)'},
+          '50%': {transform: 'translate(-5px, 0px)'},
+          '100%': {transform: 'translate(0px, -5px)'},
+        },
+        menuPlanet4: {
+          '0%': {transform: 'translate(-5px, 0px)'},
+          '50%': {transform: 'translate(5px, 5px)'},
+          '100%': {transform: 'translate(5px, 5px)'},
+        }
+      },
+      boxShadow: {
+        'neumann': '5px 5px 0 #1a1a1a'
+      }
+    },
   },
   plugins: [],
 }
