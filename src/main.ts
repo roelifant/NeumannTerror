@@ -5,9 +5,12 @@ import MainMenu from './pages/MainMenu.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import './index.css'
 
+// name of subfoler this app will be deployed in
+const urlBase = '/brol/neumann/';
+
 const routes = [
-    { path: '/brol/neumann/', component: MainMenu },
-    { path: '/brol/neumann/test', component: Test }
+    { path: urlBase, component: MainMenu },
+    { path: urlBase+'test', component: Test }
 ]
 
 const router = createRouter({
