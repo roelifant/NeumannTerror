@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   safelist: [
-    
+
     // colors
     'text-black',
     'bg-black',
@@ -63,6 +63,8 @@ module.exports = {
     'bg-gray-light',
     'text-gray-lighter',
     'bg-gray-lighter',
+    'text-gray-font',
+    'bg-gray-font',
     'text-gray-dark',
     'bg-gray-dark',
     'text-gray-darker',
@@ -79,7 +81,8 @@ module.exports = {
     extend: {
       colors: {
         'gray': {
-          'lighter': '#9999',
+          'font': '#b3b3b3',
+          'lighter': '#999999',
           'light': '#666666',
           DEFAULT: '#4d4d4d',
           'dark': '#333333',
@@ -127,32 +130,32 @@ module.exports = {
       },
       keyframes: {
         neumann: {
-          '0%': {transform: 'translateY(5px)'},
-          '100%': {transform: 'translateY(-5px)'},
+          '0%': { transform: 'translateY(5px)' },
+          '100%': { transform: 'translateY(-5px)' },
         },
         terror: {
-          '0%': {transform: 'translateY(10px)'},
-          '100%': {transform: 'translateY(-10px)'},
+          '0%': { transform: 'translateY(10px)' },
+          '100%': { transform: 'translateY(-10px)' },
         },
         menuPlanet1: {
-          '0%': {transform: 'translate(5px, -5px)'},
-          '50%': {transform: 'translate(-5px, 5px)'},
-          '100%': {transform: 'translate(0px, 0px)'},
+          '0%': { transform: 'translate(5px, -5px)' },
+          '50%': { transform: 'translate(-5px, 5px)' },
+          '100%': { transform: 'translate(0px, 0px)' },
         },
         menuPlanet2: {
-          '0%': {transform: 'translate(0px, 0px)'},
-          '50%': {transform: 'translate(-5px, -5px)'},
-          '100%': {transform: 'translate(5px, 5px)'},
+          '0%': { transform: 'translate(0px, 0px)' },
+          '50%': { transform: 'translate(-5px, -5px)' },
+          '100%': { transform: 'translate(5px, 5px)' },
         },
         menuPlanet3: {
-          '0%': {transform: 'translate(5px, 0px)'},
-          '50%': {transform: 'translate(-5px, 0px)'},
-          '100%': {transform: 'translate(0px, -5px)'},
+          '0%': { transform: 'translate(5px, 0px)' },
+          '50%': { transform: 'translate(-5px, 0px)' },
+          '100%': { transform: 'translate(0px, -5px)' },
         },
         menuPlanet4: {
-          '0%': {transform: 'translate(-5px, 0px)'},
-          '50%': {transform: 'translate(5px, 5px)'},
-          '100%': {transform: 'translate(5px, 5px)'},
+          '0%': { transform: 'translate(-5px, 0px)' },
+          '50%': { transform: 'translate(5px, 5px)' },
+          '100%': { transform: 'translate(5px, 5px)' },
         }
       },
       boxShadow: {
