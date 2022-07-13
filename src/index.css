@@ -6,3 +6,9 @@
 html {
     overflow: hidden;
 }
+
+@layer components {
+    .clip-path-modal {
+        clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+    }
+}

@@ -160,6 +160,9 @@ module.exports = {
       },
       boxShadow: {
         'neumann': '5px 5px 0 #1a1a1a'
+      },
+      dropShadow: {
+        'neumann': '5px 5px 0 #1a1a1a'
       }
     },
   },
