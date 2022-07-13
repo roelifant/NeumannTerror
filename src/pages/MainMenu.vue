@@ -468,7 +468,7 @@ setInterval(() => {
     <!-- buttons -->
     <div class="absolute top-52 left-0 w-full z-10 space-y-4">
       <router-link
-        to="test"
+        to="create"
         class="
           block
           mx-auto
@@ -483,62 +483,7 @@ setInterval(() => {
           py-1
           text-gray-darker
         "
-        >Test</router-link
-      >
-      <router-link
-        to="test"
-        class="
-          block
-          mx-auto
-          w-40
-          bg-gray
-          hover:bg-gray-light
-          text-center
-          uppercase
-          font-bold
-          shadow-neumann
-          text-lg
-          py-1
-          text-gray-darker
-        "
-        >Test</router-link
-      >
-      <router-link
-        to="test"
-        class="
-          block
-          mx-auto
-          w-40
-          bg-gray
-          hover:bg-gray-light
-          text-center
-          uppercase
-          font-bold
-          shadow-neumann
-          text-lg
-          py-1
-          text-gray-darker
-        "
-        >Test</router-link
-      >
-      <router-link
-        to="test"
-        class="
-          block
-          mx-auto
-          w-40
-          bg-gray
-          hover:bg-gray-light
-          text-center
-          uppercase
-          font-bold
-          shadow-neumann
-          text-lg
-          text-gray-darker
-          py-1
-        "
-        >Test</router-link
-      >
+        >Create Game</router-link>
     </div>
   </div>
 </template>
